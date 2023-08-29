@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+</head>
+<body>
+<form>
+    <table cellpadding="7">
+        <!-- input -->
+        <tr>
+            <td><label for="user"></label>Nama Lengkap</td>
+            <td><input type="text" id="user"></td>
+        </tr>
+        <!-- password -->
+        <tr>
+            <td><label for="password"></label>Password</td>
+            <td><input type="password" id="password"></td>
+        </tr>
+        <!-- radio button -->
+        <tr>
+            <td><label for="Jenis_Kelamin">Jenis Kelamin</label></td>
+            <td><input type="radio" name="jk" id="pria">Pria <input type="radio" name="jk" id="wanita">wanita</td>
+        </tr>
+        <!-- check box -->
+        <tr>
+            <td><label for="hobby">Hobby</label></td>
+            <td><input type="checkbox">Menyanyi <input type="checkbox">Belajar <input type="checkbox">Mengoding</td>
+        </tr>
+        <!-- text field -->
+        <tr>
+            <td><label for="comment">Komentar</label></td>
+            <td><textarea name="comment" id="comment" cols="30" rows="10"></textarea></td>
+        </tr>
+        <!-- drop down -->
+        <tr>
+            <td><label for="Address">Alamat</label></td>
+            <td>
+                <select name="alamat" id="Address">
+                    <option value="1">Jember</option>
+                    <option value="2">Lumajang</option>
+                    <option value="3">Bondowoso</option>
+                    <option value="4">Banyuwangi</option>
+                </select>
+            </td>
+        </tr>
+        <!-- button -->
+        <tr>
+            <td ></td>
+            <td ><button>Kirim</button></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
